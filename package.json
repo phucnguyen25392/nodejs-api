@@ -1,0 +1,27 @@
+{
+  "name": "factory-aws-connector",
+  "version": "1.0.0",
+  "description": "AWS connector for factory backend",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "debug": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@godaddy/terminus": "^4.3.1",
+    "auto-load": "^3.0.4",
+    "await-to-js": "^2.1.1",
+    "aws-sdk": "^2.652.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "sprintf-js": "^1.1.2",
+    "yaml": "^1.9.2",
+    "unzipper": "^0.10.11",
+    "randomstring": "^1.1.5",
+    "etl": "^0.6.12"
+  }
+}
